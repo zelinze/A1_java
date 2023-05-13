@@ -1,8 +1,9 @@
 package Game.Spell;
 
 public class Spell {
-    public static void accio() {
+    public static boolean accio() {
         System.out.println("You successfully used the Accio spell");
+        return false;
     }
 
     public static void Expelliarmus() {
